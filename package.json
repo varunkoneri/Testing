@@ -1,0 +1,18 @@
+{
+  "name": "easy-browser-auth",
+  "version": "1.0.0",
+  "description": "Easy Browser Passkey / Face ID authentication server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@simplewebauthn/server": "^13.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
